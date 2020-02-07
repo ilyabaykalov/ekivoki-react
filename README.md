@@ -1,4 +1,4 @@
-# Template for React app
+# Ekivoki card generator React
 
 [![dependencies Status](https://david-dm.org/ilyabaykalov/try-react/status.svg)](https://david-dm.org/ilyabaykalov/try-react)
 [![devDependencies Status](https://david-dm.org/ilyabaykalov/try-react/dev-status.svg)](https://david-dm.org/ilyabaykalov/try-react?type=dev)

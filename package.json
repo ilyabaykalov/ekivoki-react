@@ -1,5 +1,5 @@
 {
-  "name": "react-app-template",
+  "name": "ekivoki-react",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TrueSib-Coders/react-app-template.git"
+    "url": "git+https://github.com/ilyabaykalov/ekivoki-react.git"
   },
   "author": "TrueSib Coders",
   "bugs": {
-    "url": "https://github.com/TrueSib-Coders/react-app-template/issues"
+    "url": "https://github.com/ilyabaykalov/ekivoki-react/issues"
   },
-  "homepage": "https://github.com/TrueSib-Coders/react-app-template#readme",
+  "homepage": "https://github.com/ilyabaykalov/ekivoki-react#readme",
   "devDependencies": {
     "@babel/core": "^7.8.0",
     "@babel/preset-env": "^7.8.2",
