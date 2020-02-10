@@ -1,32 +1,20 @@
 import React, { Component } from 'react';
 
 import Card from '../components/Card/Card';
+import Cards from '../public/cards';
 
 class App extends Component {
+	constructor(props) {
+		super(props);
+		this.state = { cards: Cards };
+	}
+
 	render() {
-		this.setState({
-			card: [
-				{
-					title: 'Культпросвет',
-					first: 'Креатив',
-					second: 'Иллюзионист',
-					third: 'Мурзилка',
-					fourth: 'Вшивый интеллигент',
-					fifth: 'Басня',
-				},
-				{
-					title: 'Культпросвет',
-					first: 'Неунывающие децибелы',
-					second: 'Виолончелистка',
-					third: 'Хохлома',
-					fourth: 'Попасть в кадр',
-					fifth: 'Маска',
-				},
-			],
-		});
 		return (
 			<div className={'cards'}>
-				<Card card={this.state.card} />
+				{this.state.cards.map((card, index) => (
+					<Card card={card} key={index} />
+				))}
 			</div>
 		);
 	}

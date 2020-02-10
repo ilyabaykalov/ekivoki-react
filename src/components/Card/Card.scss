@@ -11,19 +11,21 @@
   min-height: 8.9cm;
   max-height: 8.9cm;
 
-  margin-bottom: 4px;
+  margin-bottom: 11px;
 
   display: flex;
   flex-direction: column;
 
   font-family: Calibri, sans-serif;
 
-  border: 1px solid black;
   border-radius: 10px;
 }
 
 .first-theme {
   background: rgba(245, 129, 33, 0.47);
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 
   display: flex;
   flex-direction: column;
@@ -32,6 +34,9 @@
 
 .second-theme {
   background: rgba(42, 120, 245, 0.47);
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 
   display: flex;
   flex-direction: column;
@@ -62,12 +67,6 @@
   display: flex;
   flex-direction: column;
   flex: 3;
-
-  //.first-drop, .second-drop, .third-drop, .fourth-drop, .fifth-drop {
-  //  p {
-  //    font-size: 0.75em;
-  //  }
-  //}
 }
 
 .questions {
@@ -77,6 +76,8 @@
 }
 
 .first-drop, .second-drop, .third-drop, .fourth-drop, .fifth-drop {
+  padding-right: 5px;
+
   display: flex;
   flex: 1;
 
